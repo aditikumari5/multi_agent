@@ -1,0 +1,19 @@
+Test case -1
+
+Run command --  python run_system.py --goal "Get SpaceX launch info"
+
+Output-
+Launch: USSF-44 on 2022-11-01T13:41:00.000Z at 5e9e4502f509094188566f88.Weather: broken clouds, Temperature: 305.01K. Status: on schedule
+
+
+Test case -2
+
+Run command -- python run_system.py --goal "Check something else"
+
+Output -  Status: None
+
+Test case -3
+Run command--python run_system.py --goal "Check SpaceX launch and weather impact"
+
+Output-Launch: USSF-44 on 2022-11-01T13:41:00.000Z at 5e9e4502f509094188566f88.Weather: broken clouds, Temperature: 305.01K. Status: on schedule
+		
