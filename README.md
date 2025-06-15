@@ -27,7 +27,10 @@ pip install -r requirements.txt
 ```
 4. Run the system with:
 ```
-python run_system.py --goal "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed."
+python run_system.py --goal "Get SpaceX launch info"
+python run_system.py --goal "Check something else"
+python run_system.py --goal "Check SpaceX launch and weather impact"
+
 ```
 
 ## Folder Structure
