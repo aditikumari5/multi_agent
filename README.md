@@ -5,7 +5,9 @@ This project is a multi-agent AI system that takes a user goal, plans a route us
 
 ### Example Goal:
 > "Find the next SpaceX launch, check weather at that location, then summarize if it may be delayed."
-
+##**unzip**
+Unzip the `test.zip` file and extract all its contents into a single folder.
+> 
 ### Agents Involved:
 - **Planner Agent**: Decides the sequence of actions.
 - **SpaceX Agent**: Finds the next SpaceX launch details.
